@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nimbus SanL";
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+#main{
+    width:100%;
+}
+
+#nav{
+    padding: 2vw 8vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+
+}
+#nav #center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 16px;
+}
+
+#page1{
+    width: 100%;
+    margin-top: 15vw;
+    /* background-color: red; */
+    padding: 0vw 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cozyCup{
+    width: 12vw;
+}
+
+#cozyCup p{
+    font-size: 14px;
+    font-weight: 800;
+    opacity: 0.5;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+#cozyCup #ccImgWrap{
+    height: 15vw;
+    width: 100%;
+}
+#ccImgWrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#PP{
+    width: 24vw;
+    min-height: 38vw;
+    /* background-color: red; */
+    position: relative;
+}
+#PP h1{
+    font-size: 5vw;
+    font-weight: 400;
+    letter-spacing: -.4vw;
+    line-height: 1;
+}
+#PP #heading{
+    position: absolute;
+    top: -20%;
+    left: -23%;
+}
+#imgntext{
+    width: fit-content;
+    height: fit-content;
+}
+#PP img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#PP p{
+    font-size: 1.2vw;
+    width: 58%;
+    margin-top: 1vw;
+    font-weight: 500;
+    line-height: 1;
+    /* letter-spacing: -.1vw; */
+}
+#visit{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#circle{
+    display: flex;
+    height: 3vw;
+    width: 3vw;
+    border: 2px solid rgb(77, 30, 30);
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#circle i{
+    color: rgb(77, 30, 30);
+}
+
+#visit h3{
+    color:rgb(77, 30, 30) ;
+    font-weight: 400;
+}
+#motive{
+    padding: 8vw 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+#motive p{
+    position: relative;
+    text-align: right;
+    font-size: 2.2vw;
+    width: 83%;
+    margin-top: 2.5vw;
+    line-height: 1.6;
+    
+}
+#motive span{
+    display: inline-block;
+    width: 90px;
+    height: 38px;
+    background-color: aqua;
+    border-radius: 100px;
+    margin: 0 10px;
+    margin-bottom: -12px;
+}
+
+#one{
+    background-image: url(span1.jpg);
+    background-size: cover;
+    background-size: 130%;
+    background-position: center;
+}
+#two{
+    background-image: url(span2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: 90%;
+}
+#three{
+    background-image: url(span3.jpg);
+    background-size: cover;
+    background-size: 140%;
+}
+
+#beauty{
+    padding: 3vw;
+    padding-left: 15vw;
+    padding-right: 12vw;
+    display: flex;
+    /* align-items: ; */
+    justify-content: space-between;
+}
+
+#simplicity{
+    width: 17vw;
+}
+#simplicity #simplimg{
+    width: 100%;
+    height: 24vw;
+    /* background-color: red; */
+}
+#simplimg h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+#simplimg p{
+    opacity: .8;
+    font-size: 1vw;
+    margin-top: 10px;
+    width: 50%;
+}
+#simplimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-size: 180%;
+}
+#elegance{
+    width: 20vw;
+    text-align: right;
+}
+#elegance #eleimg{
+    width: 100%;
+    height: 32vw;
+    /* background-color: red; */
+}
+#eleimg h1{
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+}
+#eleimg p{
+    opacity: .8;
+    font-size: 1vw;
+    margin-top: 10px;
+
+}
+#eleimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* background-size: 180%; */
+}
+
+#banner{
+    width: 100%;
+    margin-top: 8vw;
+    display: flex;
+    align-items: center;
+}
+#bimg{
+    width: 65%;
+    height: 75vh;
+    background-color: red;
+}
+#bimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#btext{
+    width: 35%;
+    padding: 0vw 4vw;
+}
+#btext h1{
+    font-size: 3vw;
+    font-weight: 400;
+    letter-spacing: -.1vw;
+    margin-bottom: 10px;
+}
+#btext p{
+    width: 80%;
+    font-size: 1.2vw;
+}
+#expMore{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+#expMore video{
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+#emText{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 99;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 1vw 2vw;
+}
+#emText h1{
+    font-size: 1.8vw;
+}
+
+#emText button{
+    padding: .8vw 1.3vw;
+    font-size: .7vw;
+    margin-top: 8px;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: white;
+    border: 1px solid black;
+    color: #6f6f6f;
+}
